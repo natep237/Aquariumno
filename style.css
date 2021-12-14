@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* setting up fonts and locations for tabs */
+
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(images/Underwater.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+/* creating background and text size  */
+
+
+nav{
+    display: flex;
+    padding: 0.5% 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+/* setting up padding between each menu item */
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+
+}
+/* putting menu items on the top right hand corner of pages */
+
+.nav-links ul a{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+/* making text size in px */
+
+.nav-links ul a{
+    color:  black;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* adding the underline for each menu item */
+.nav-links ul a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+
+}
+/* taking black underline away until hover */
+.nav-links ul a:hover::after{
+    width: 100%;
+}
+/* putting black underline back when hover */
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+/* text box for contact page under header */
+
+.text-box h1{
+    font-size: 62px;
+}
+/* size of text box */
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+/* creating button for contact info */
+
+.hero-btn:hover{
+    border: 1px solid #fff;
+    background: black;
+    transition: 1.5s;
+}
+/* creating background when hover over button */
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+/* style for font */
+p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+/* syle for font */
+
+.hera-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+/* creating button for contact info */
+
+.hera-btn:hover{
+    border: 1px solid #fff;
+    background: black;
+    transition: 1.5s;
+}
+/* creating background when hover over button */
